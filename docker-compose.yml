@@ -31,3 +31,7 @@ services:
       - "3007:80"
     networks:
       - catedra-net
+      
+networks:
+  catedra-net:
+    driver: bridge
