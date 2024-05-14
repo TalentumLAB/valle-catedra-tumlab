@@ -21,7 +21,7 @@ services:
     networks:
       - catedra-net
   catedra-game:
-    image: vallelabs/catedra-game:1.1.0
+    image: vallelabs/catedra-game:1.2.0-tumlab
     container_name: catedra-game
     restart: always
     extra_hosts:
